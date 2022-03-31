@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 12px;
+}
+
+div.containerr {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 5px 10px;
+}
+
+div.resume div.resume_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px;
+}
+
+div.resume div.resume_content div.resume_left {
+  width: 40%;
+  border-right: 1px solid #000;
+}
+
+div.resume div.resume_content div.resume_left img {
+  width: 170px;
+  height: 170px;
+  display: none;
+}
+
+div.resume div.resume_content div.resume_left input.camera {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+div.resume div.resume_content div.resume_left form.about {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+  margin-bottom: 10px;
+}
+
+div.resume div.resume_content div.resume_left form.about div.chesk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.resume div.resume_content div.resume_left form.about div.chesk input {
+  margin-left: 10px;
+}
+
+div.resume div.resume_content div.resume_left div.work_block form.work1 i {
+  cursor: pointer;
+}
+
+div.resume div.resume_content div.resume_left div.work_block form.work2 i {
+  cursor: pointer;
+}
+
+div.resume div.resume_content div.resume_right {
+  margin-left: 20px;
+  width: 793px;
+}
+
+div.resume div.resume_content div.resume_right div.top_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.resume div.resume_content div.resume_right div.top_content div.img {
+  width: 140px;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+div.resume div.resume_content div.resume_right div.top_content div.img img {
+  width: 140px;
+  height: 150px;
+}
+
+div.resume div.resume_content div.resume_right div.top_content div.info_name {
+  margin-left: 50px;
+  text-align: center;
+}
+
+div.resume div.resume_content div.resume_right div.top_content div.info_name h1.name {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+div.resume div.resume_content div.resume_right div.top_content div.info_name h3.year {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+div.resume div.resume_content div.resume_right div.top_content div.info_name p.adreas {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+div.resume div.resume_content div.resume_right div.education {
+  margin-top: 30px;
+}
+
+div.resume div.resume_content div.resume_right div.education div.degree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.education div.degree p.degree1 {
+  font-size: 20px;
+  color: rgba(8, 8, 8, 0.788);
+}
+
+div.resume div.resume_content div.resume_right div.education div.degree div.degree2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.education div.degree div.degree2 p {
+  display: none;
+  font-size: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.education div.study {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.education div.study p.study_name {
+  font-size: 20px;
+  color: rgba(8, 8, 8, 0.788);
+}
+
+div.resume div.resume_content div.resume_right div.education div.study p.study_value {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.education div.faculty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.education div.faculty p.faculty_name {
+  font-size: 20px;
+  color: rgba(8, 8, 8, 0.788);
+}
+
+div.resume div.resume_content div.resume_right div.education div.faculty p.faculty_value {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.education div.study_year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.education div.study_year p.year {
+  font-size: 20px;
+  color: rgba(8, 8, 8, 0.788);
+}
+
+div.resume div.resume_content div.resume_right div.education div.study_year p.year_value {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.work div.work1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.work div.work1 p.working {
+  font-size: 20px;
+  color: rgba(8, 8, 8, 0.788);
+}
+
+div.resume div.resume_content div.resume_right div.work div.work1 p.working1 {
+  font-size: 20px;
+  margin-left: 50px;
+  color: rgba(8, 8, 8, 0.788);
+}
+
+div.resume div.resume_content div.resume_right div.work div.work1 p.working_value {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.work div.work1 p.working_value1 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.interest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.interest p.interest_name {
+  font-size: 15px;
+  color: rgba(8, 8, 8, 0.788);
+}
+
+div.resume div.resume_content div.resume_right div.interest p.interest_value {
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.infoo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.infoo p.infoo_name {
+  font-size: 15px;
+  color: rgba(8, 8, 8, 0.788);
+}
+
+div.resume div.resume_content div.resume_right div.infoo p.infoo_value {
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div.resume div.resume_content div.resume_right div.tel p.tel_name {
+  font-size: 15px;
+  color: rgba(8, 8, 8, 0.788);
+}
+
+div.resume div.resume_content div.resume_right div.tel p.tel_value {
+  font-size: 15px;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */

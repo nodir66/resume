@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+div.containerr{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+input{
+    padding: 5px 10px;
+}
+
+div.resume{
+    div.resume_content{
+        display: flex;
+        padding: 20px 0px;
+        div.resume_left{
+            width: 40%;
+            // text-align: center;
+            border-right: 1px solid #000;
+            img{
+                width: 170px;
+                height: 170px;
+                display: none;
+            }
+            input.camera{
+                font-size:20px;
+                margin-bottom: 15px;
+                
+            }
+            form.about{
+                border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+                margin-bottom: 10px;
+                
+                input{
+
+                }
+                label{
+    
+                }
+                div.chesk{
+                    display: flex;
+                    
+                    input{
+                        margin-left:    10px;
+                    }
+                }
+            }
+
+            div.work_block{
+                form.work1{
+                    i{
+                        cursor: pointer;
+                    }
+
+                }
+                form.work2{
+                    i{
+                        cursor: pointer;
+                    }
+                    
+                }
+                form.work3{
+                    
+                }
+            }
+        }
+
+
+
+        div.resume_right{
+            margin-left: 20px;
+            width: 793px;
+            div.top_content{
+                display: flex;
+                div.img{
+                    width: 140px;
+                    height: 150px;
+                    // background-color: aqua;
+                    border: 1px solid #000;
+                    img{
+                        width: 140px;
+                        height: 150px;
+                        
+                    }
+
+                }
+
+                div.info_name{
+                    margin-left: 50px;
+                    text-align: center;
+                    h1.name{
+                        font-size: 30px;
+                        margin-bottom: 15px;
+                    }
+
+                    h3.year{
+                        font-size: 20px;
+                        margin-bottom: 15px;
+                    }
+
+                    p.adreas{
+                        font-size: 20px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+
+            div.education{
+                margin-top: 30px;
+                
+
+                div.degree{
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin-bottom: 20px;
+
+                    p.degree1{
+                        font-size: 20px;
+                        color: rgba(8, 8, 8, 0.788);
+
+                    }
+
+                    div.degree2{
+                        display: flex;
+                        margin-left: 20px;
+                        
+                        p{
+                            display: none;
+                            font-size: 20px;
+
+                        }
+                    }
+                }
+
+                div.study{
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    p.study_name{
+                        font-size: 20px;
+                        color: rgba(8, 8, 8, 0.788);
+
+
+                    }
+
+                    p.study_value{
+                        font-size: 20px;
+                        margin-left: 20px;
+
+
+
+                    }
+
+                }
+
+
+                div.faculty{
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin-bottom: 20px;
+
+                    p.faculty_name{
+                        font-size: 20px;
+                        color: rgba(8, 8, 8, 0.788);
+
+
+                    }
+                    p.faculty_value{
+                        font-size: 20px;
+                        margin-left: 20px;
+
+
+
+                    }
+                }
+
+
+                div.study_year{
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    p.year{
+                        font-size: 20px;
+                        color: rgba(8, 8, 8, 0.788);
+
+
+                    }
+
+                    p.year_value{
+                        font-size: 20px;
+                        margin-left: 20px;
+
+
+
+                    }
+                }
+
+            }
+
+
+
+            div.work{
+                div.work1{
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    p.working{
+                        font-size: 20px;
+                        color: rgba(8, 8, 8, 0.788);
+
+
+                    }
+                    p.working1{
+                        font-size: 20px;
+                        margin-left: 50px;
+                        color: rgba(8, 8, 8, 0.788);
+                        
+
+                    }
+
+                    p.working_value{
+                        font-size: 20px;
+                        margin-left: 20px;
+
+
+                        
+                    }
+
+                    p.working_value1{
+                        font-size: 20px;
+                        margin-left: 20px;
+
+
+                        
+                    }
+                }
+
+                // div.work2{
+                //     p.working2{
+
+                //     }
+
+                //     p.working_value2{
+                        
+                //     }
+
+                //     p.working_value22{
+                        
+                //     }
+                // }
+
+                // div.work1{
+                //     p.working3{
+
+                //     }
+
+                //     p.working_value3{
+                        
+                //     }
+
+                //     p.working_value33{
+                        
+                //     }
+                // }
+            }
+
+
+            div.interest{
+                display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin-bottom: 20px;
+                p.interest_name{
+                    font-size: 15px;
+                    color: rgba(8, 8, 8, 0.788);
+
+
+                }
+
+                p.interest_value{
+                    font-size: 15px;
+                    margin-left: 20px;
+
+
+
+                }
+            }
+
+
+            div.infoo{
+                display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin-bottom: 20px;
+                p.infoo_name{
+                    font-size: 15px;
+                    color: rgba(8, 8, 8, 0.788);
+
+
+                }
+
+                p.infoo_value{
+                    font-size: 15px;
+                    margin-left: 20px;
+
+
+
+                }
+            }
+
+
+            div.tel{
+                display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin-bottom: 20px;
+                p.tel_name{
+                    font-size: 15px;
+                    color: rgba(8, 8, 8, 0.788);
+
+
+                }
+
+                p.tel_value{
+                    font-size: 15px;
+                    margin-left: 20px;
+
+
+
+                }
+            }
+
+
+        }
+    }
+}

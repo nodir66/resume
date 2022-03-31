@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+
+        <button class="btn btn-info" onclick="window.print()">
+            Print Certificate
+          </button>
+          <button class="btn btn-info" id="downloadPDF">Download PDF</button>
+
+        <!-- <div class="toolbar no-print">
+            <button class="btn btn-info" onclick="window.print()">
+              Print Certificate
+            </button>
+            <button class="btn btn-info" id="downloadPDF">Download PDF</button>
+          </div>
+          <div class="cert-container print-m-0">
+            <div  class="cert">
+              <img
+                src="https://edgarsrepo.github.io/certificate.png"
+                class="cert-bg"
+                alt=""
+              />
+              <div class="cert-content">
+                <h1 class="other-font">Certificate of Completion</h1>
+                <span style="font-size: 30px;">Reginald Bentley</span>
+                <br /><br /><br /><br />
+                <span class="other-font"
+                  ><i><b>has completed the</b></i></span
+                >
+                <br />
+                <span style="font-size: 40px;"><b>Azimuth Check</b></span>
+                <br />
+                <small>(For Soldiers)</small>
+                <br /><br /><br /><br />
+                <small
+                  >Completion of the Azimuth Check and review of the Azimuth Check
+                  recommendations in ArmyFit is worth 1.0 hours in the Electronic
+                  Based Distance Learning (EBDL) program for USAR and ARNG Soldiers.
+                  For more information on the EBDL, see your unit training NCO.</small
+                >
+                <div class="bottom-txt">
+                  <span>G-1 DAPE-ARR-SF</span>
+                  <span>Completed on: April 3, 2020</span>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+        <div class="resume">
+            <div class="containerr">
+                <!-- <div id="create_pdf" class="download">
+                    <div id="submit"></div>
+
+                    <a href="#" class="btn btn-block btn-primary mb-3" id="cmd"
+                        >Download</a
+                    >
+                </div> -->
+                <div class="resume_content">
+                    <div class="resume_left">
+                        <input
+                            class="fa fa-camera camera"
+                            type="file"
+                            id="fileUpload"
+                            accept="image/*"
+                            onchange="previewImage(this)"
+                        />
+                        <img
+                            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftanzolymp.com%2F%3Fattachment_id%3D4420&psig=AOvVaw2qk090WUcsPhiWWC8Hb49P&ust=1647100788130000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNjv_ty2vvYCFQAAAAAdAAAAABAD"
+                            id="imgpreview"
+                        />
+
+                        <form class="about" action="">
+                            <label for="">Ism sharifingiz:</label>
+                            <input
+                                id="namee"
+                                type="text"
+                                placeholder="Anvarov Axmad Aziz o'g'li"
+                            /><br /><br />
+                            <label for="">Tug'ilgan yilingiz:</label>
+                            <input
+                                id="data"
+                                type="text"
+                                placeholder="01.10.1999"
+                            /><br /><br />
+
+                            <label for="">Doimiy yashash manzilingiz:</label>
+                            <textarea
+                                name=""
+                                id="adreas"
+                                cols="25"
+                                rows="2"
+                                placeholder="Shahar.tuman.ko'cha uy raqami"
+                            ></textarea>
+                            <br /><br />
+
+                            <div class="chesk">
+                                <p>Malumotingiz:</p>
+                                   
+                                <input
+                                    class="radio"
+                                    type="radio"
+                                    id=""
+                                    name="fav_language"
+                                    value="Orta maxsus"
+                                />
+                                  <label>O'rta maxsus</label><br />
+                                 
+                                <input
+                                    class="radio"
+                                    type="radio"
+                                    id=""
+                                    name="fav_language"
+                                    value="Oliy"
+                                />
+                                  <label>Oliy</label>
+                            </div>
+
+                            <label for="">O'qigan joyingiz:</label>
+                            <input
+                                id="std"
+                                type="text"
+                                placeholder="Institut yoki kollej"
+                            />
+                            <br /><br />
+
+                            <label for="">Fakultet</label>
+                            <textarea
+                                name=""
+                                id="fkl"
+                                cols="20"
+                                rows="2"
+                            ></textarea>
+                            <br /><br />
+
+                            <label for="">O'qigan yilingiz:</label>
+                            <input
+                                id="year"
+                                type="text"
+                                placeholder="2015-2018"
+                            />
+                            <br /><br />
+
+                            <label for=""></label>
+                        </form>
+                        <div class="work_block">
+                            <form class="work1" action="">
+                                <label for="">Ishlagan joyingiz</label>
+                                <input
+                                    id="work1"
+                                    type="text"
+                                    placeholder="Korxona nomi"
+                                />
+                                <input
+                                    id="work11"
+                                    type="text"
+                                    placeholder="lavozim"
+                                />
+                                <br /><br />
+                            </form>
+
+                            <!-- <form class="work2" action="">
+                                <label for="">Ishlagan joyingiz</label>
+                                <input type="text" placeholder="Korxona nomi" />
+                                <input type="text" placeholder="lavozim" />
+                                <br /><br />
+                            </form> -->
+
+                            <!-- <form class="work3" action="">
+                                <label for="">Ishlagan joyingiz</label>
+                                <input type="text" placeholder="Korxona nomi" />
+                                <input type="text" placeholder="lavozim" />
+                                <br /><br />
+                            </form> -->
+                        </div>
+
+                        <div class="info">
+                            <label for="">Qiziqishlaringiz</label>
+                            <textarea
+                                name=""
+                                id="interest"
+                                cols="30"
+                                rows="4"
+                            ></textarea>
+                            <br /><br />
+
+                            <label for="">Qo'shimcha malumot</label>
+                            <textarea
+                                name=""
+                                id="info"
+                                cols="30"
+                                rows="4"
+                            ></textarea>
+                            <br /><br />
+
+                            <label for="">Telefon raqamingiz</label>
+                            <input
+                                id="tel"
+                                type="text"
+                                placeholder="+998991234567"
+                            />
+                        </div>
+                    </div>
+
+                    <h1 class="form">
+                        
+
+   
+
+                        <div id="content2" class="resume_right">
+                            <div class="top_content">
+                                <div class="img">
+                                    <img
+                                        size="cover"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbnD_Die0nAYedd4fOoQBxeCPR1y_3ZYSK-0AG9HtgvLCszJtVG8i7U_H-IiIZ1e2dsks&usqp=CAU"
+                                        id="imgprevieww"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="info_name">
+                                    <h1 id="name1" class="name"></h1>
+                                    <h3 id="data1" class="year"></h3>
+                                    <p id="adreas1" class="adreas"></p>
+                                </div>
+                            </div>
+
+                            <div class="education">
+                                <div class="degree">
+                                    <p class="degree1">Malumotim:</p>
+                                    <div class="degree2">
+                                        <p class="radio2">O'rta maxsus</p>
+                                        <p class="radio3">Oliy</p>
+                                    </div>
+                                </div>
+
+                                <div class="study">
+                                    <p class="study_name">O'qigan joyim:</p>
+                                    <p id="std1" class="study_value"></p>
+                                </div>
+
+                                <div class="faculty">
+                                    <p class="faculty_name">Fakultet:</p>
+                                    <p id="fkl1" class="faculty_value"></p>
+                                </div>
+
+                                <div class="study_year">
+                                    <p class="year">O'qigan yilim:</p>
+                                    <p id="year1" class="year_value"></p>
+                                </div>
+                            </div>
+
+                            <div class="work">
+                                <div class="work1">
+                                    <p class="working">Ishlagan joyim:</p>
+                                    <p id="workk1" class="working_value"></p>
+                                    <p class="working1">Lavozim:</p>
+                                    <p id="workk2" class="working_value1"></p>
+                                </div>
+
+                                <!-- <div class="work2">
+                                    <p class="working2">Ish joyim</p>
+                                    <p class="working_value2"></p>
+                                    <p class="working22">Lavozim</p>
+                                    <p class="working_value22"></p>
+                                </div> -->
+
+                                <!-- <div class="work3">
+                                    <p class="working3">Ish joyim</p>
+                                    <p class="working_value3"></p>
+                                    <p class="working33">Lavozim</p>
+                                    <p class="working_value33"></p>
+                                </div> -->
+                            </div>
+
+                            <div class="interest">
+                                <p class="interest_name">Qiziqishlarim:</p>
+                                <p id="interest1" class="interest_value"></p>
+                            </div>
+
+                            <div class="infoo">
+                                <p class="infoo_name">Qo'shimcha malumot:</p>
+                                <p id="info1" class="infoo_value"></p>
+                            </div>
+
+                            <div class="tel">
+                                <p class="tel_name">Telefon:</p>
+                                <p id="tel1" class="tel_value"></p>
+                            </div>
+                        </div>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.min.js"></script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
+            integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
+            crossorigin="anonymous"
+        ></script>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- <script>
+            let plus1 = document.getElementById("plus1");
+            let plus2 = document.getElementById("plus2");
+            let work2 = document.getElementsByClassName("work2");
+            let work3 = document.getElementsByClassName("work3");
+
+            plus1.onclick = function () {
+                work2.style.display = "block";
+            };
+        </script> -->
+    </body>
+</html>
